@@ -9,7 +9,7 @@ const PORT = 5000;
 app.use(cookieParser());
 
 const customProxy = createProxyMiddleware({
-  target: "https://arsenic.smartfoloo.space/",
+  target: "https://yandex.com/games",
   changeOrigin: true,
   onProxyReq: (proxyReq) => {
     storedCookies.forEach((cookie) => {
